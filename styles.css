@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("images/backgroun-Dario-Brönnimann.jpg");
+    margin: 0em;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 70%;
+    background-color: black;
+    opacity: 70%;
+}
+a{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0em;
+    margin: 0em;
+    width: 100%;
+    height: 100vh;
+}
+.body-left{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: end;
+    height:100%;
+    width: 40%;
+}
+.body-right{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    width: 60%;
+    border-style:ridge;
+    border-color:black;
+}
+.br-top{
+    display: flex;
+    flex: 1 1 0%;
+    background-color:rgb(159, 183, 206);
+}
+.br-middle{
+    display: flex;
+    flex: 1 1 0%;
+    background-color: rgb(77, 88, 99);
+    margin-bottom:
+}
+.br-bottom{
+    display: flex;
+    flex: 1 1 0%;
+    background-color:rgb(159, 183, 206);
+}
