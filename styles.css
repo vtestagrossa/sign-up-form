@@ -41,22 +41,25 @@ a:visited{
     flex-direction: column;
     height:100%;
     width: 60%;
-    border-style:ridge;
-    border-color:black;
 }
 .br-top{
     display: flex;
     flex: 1 1 0%;
-    background-color:rgb(159, 183, 206);
+    background-color:rgb(33, 38, 43);
+    opacity: 50%;
+    color: white;
 }
 .br-middle{
     display: flex;
     flex: 1 1 0%;
     background-color: rgb(77, 88, 99);
-    margin-bottom:
+    opacity: 90%;
+    color: black;
 }
 .br-bottom{
     display: flex;
     flex: 1 1 0%;
-    background-color:rgb(159, 183, 206);
+    background-color:rgb(33, 38, 43);
+    opacity: 50%;
+    color: white;
 }
