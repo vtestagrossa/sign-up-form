@@ -97,6 +97,11 @@ input:invalid{
 }
 .br-top{
     display: flex;
+    align-items: flex-end;
+    justify-content: left;
+    padding-left: 5em;
+    padding-right: 5em;
+    font-size: x-large;
     flex: 1 1 0%;
     color: white;
 }
