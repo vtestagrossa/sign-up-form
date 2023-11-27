@@ -165,3 +165,6 @@ input:invalid{
 .logo img{
     width: 70%;
 }
+.error, .passwd-error{
+    color: red;
+}

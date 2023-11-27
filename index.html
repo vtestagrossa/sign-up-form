@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up!</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -33,48 +34,60 @@
                     <form action="" method="">
                         <div class="input-container">
                             <label for="fname">First Name</label>
-                            <input type="text" name="fname" id="fname" required>
+                            <input type="text" name="fname" id="fname" placeholder="Thor" required>
                             <span>
                             </span>
-                            <div class="error"></div>
+                            <div class="error">
+                                <p></p>
+                            </div>
                         </div>
                         <div class="input-container">
                             <label for="lname">Last Name</label>
-                            <input type="text" name="lname" id="lname" required>
+                            <input type="text" name="lname" id="lname" placeholder="Odinson" required>
                             <span>
                             </span>
-                            <div class="error"></div>
+                            <div class="error">
+                                <p></p>
+                            </div>
                         </div>
                         <div class="input-container">
                             <label for="email">E-Mail</label>
-                            <input type="email" name="email" id="email" required>
+                            <input type="email" name="email" id="email" placeholder="GodOfThunder@proton.me" required>
                             <span>
                             </span>
-                            <div class="error"></div>
+                            <div class="error">
+                                <p></p>
+                            </div>
                         </div>
                         <div class="input-container">
                             <label for="phone">Phone</label>
-                            <input type="text" name="phone" id="phone" pattern="(\d{10}|\d{3}-\d{3}-\d{4})" required>
+                            <input type="text" name="phone" id="phone" placeholder="605-477-3018" pattern="(\d{10}|\d{3}-\d{3}-\d{4})" required>
                             <span>
                             </span>
-                            <div class="error"></div>
+                            <div class="error">
+                                <p></p>
+                            </div>
                         </div>
                         <div class="input-container">
                             <label for="pass">Password</label>
-                            <input type="password" name="pass" id="pass" required>
+                            <input type="password" name="pass" class="passwd" id="pass" minlength="8" required>
                             <span>
                             </span>
-                            <div class="error"></div>
+                            <div class="passwd-error">
+                                <p></p>
+                            </div>
                         </div>
                         <div class="input-container">
                             <label for="pass">Confirm Password</label>
-                            <input type="password" name="pass" id="cpass" minlength="8" required>
+                            <input type="password" name="pass" class="passwd" id="cpass" minlength="8" required>
                             <span>
                             </span>
-                            <div class="error"></div>
+                            <div class="passwd-error">
+                                <p></p>
+                            </div>
                         </div>
                         <div id="btn">
-                            <button type="submit" class="submit-btn">Create Account</button>
+                            <button type="submit" class="submit-btn" id="submit-btn">Create Account</button>
                             <p class="btm-text">
                                 Already have an account? <a href=""> Log in</a>.
                             </p>
