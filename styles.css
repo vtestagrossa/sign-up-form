@@ -1,13 +1,13 @@
 @keyframes slideInLeft{
     0% {
-        transform: translateX(100%);
+        transform: translateX(55%);
     }
     100% {
         transform: translateX(0);
     }
 }@keyframes slideInUp{
     0% {
-        transform: translateY(100%);
+        transform: translateY(55%);
     }
     100% {
         transform: translate\Y(0);
@@ -25,11 +25,11 @@ footer{
     justify-content: center;
     color: white;
     width: 70%;
-    background-color: black;
-    opacity: 70%;
-    animation: 1.125s ease-in-out 0s 1 slideInUp;
-    padding: 1em;
-    font-size:x-large;
+    background-color: rgb(11, 16, 32);
+    opacity: 50%;
+    animation: 0.45s ease-in-out 0s 1 slideInUp;
+    padding: 0.5em;
+    font-size: large;
 }
 a{
     color: white;
@@ -70,7 +70,6 @@ input:invalid{
     margin: 0em;
     width: 100%;
     height: 100vh;
-    animation: 0.75s ease-in-out 0s 1 slideInLeft;
 }
 .body-left{
     display: flex;
@@ -85,9 +84,16 @@ input:invalid{
     flex-direction: column;
     height:100%;
     width: 60%;
-    background-color: rgb(77, 88, 99);
+    background-color:rgb(11, 16, 32);
     opacity: 90%;
     color: black;
+    animation: .25s ease-in-out 0s 1 slideInLeft;
+}
+.body-right a{
+    color: slateblue;
+}
+.body-right a:visited{
+    color:darkslateblue;
 }
 .br-top{
     display: flex;
@@ -108,4 +114,19 @@ input:invalid{
     display: flex;
     flex: 1 1 0%;
     color: white;
+}
+.submit-btn{
+    background-color: rgb(11, 16, 32);
+    color: slateblue;
+    font-size: large;
+    border-radius: 0.75em;
+    padding: 0.75em;
+    border-style: solid;
+    border-width: 0.125em;
+    border-color:slateblue;
+}
+.submit-btn:active{
+    background-color: slateblue;
+    border-color:aliceblue;
+    color: aliceblue;
 }
