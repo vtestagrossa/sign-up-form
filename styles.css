@@ -144,6 +144,10 @@ input:invalid{
     color: aliceblue;
 }
 .logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: Center;
+    align-items: center;
     margin-top: -30vh;
     background-color: rgb(11, 16, 32);
     height: 20vh;
@@ -151,4 +155,8 @@ input:invalid{
     top: 20vh;
     opacity: 80%;
     animation: 0.75s ease-in-out 0s 1 slideInRight;
+    color:aliceblue;
+}
+.logo img{
+    width: 70%;
 }
