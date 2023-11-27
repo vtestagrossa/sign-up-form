@@ -5,12 +5,21 @@
     100% {
         transform: translateX(0);
     }
-}@keyframes slideInUp{
+}
+@keyframes slideInUp{
     0% {
         transform: translateY(55%);
     }
     100% {
         transform: translate\Y(0);
+    }
+}
+@keyframes slideInRight{
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
     }
 }
 body{
@@ -24,7 +33,6 @@ footer{
     display: flex;
     justify-content: center;
     color: white;
-    width: 70%;
     background-color: rgb(11, 16, 32);
     opacity: 50%;
     animation: 0.45s ease-in-out 0s 1 slideInUp;
@@ -75,7 +83,7 @@ input:invalid{
     display: flex;
     flex-direction: column;
     align-items:center;
-    justify-content: end;
+    justify-content: space-between;
     height:100%;
     width: 40%;
 }
@@ -134,4 +142,13 @@ input:invalid{
     background-color: slateblue;
     border-color:aliceblue;
     color: aliceblue;
+}
+.logo{
+    margin-top: -30vh;
+    background-color: rgb(11, 16, 32);
+    height: 20vh;
+    width: 100%;
+    top: 20vh;
+    opacity: 80%;
+    animation: 0.75s ease-in-out 0s 1 slideInRight;
 }
