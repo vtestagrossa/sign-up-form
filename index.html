@@ -9,17 +9,71 @@
 <body>
     <div class="container">
         <div class="body-left">
-            <footer>Photo by <a href="">Dario Brönnimann</a> on Unsplash</footer>
+            <footer>Background by&nbsp;<a href="https://unsplash.com/@dariobroe">Dario Brönnimann</a>&nbsp;on&nbsp;<a href="https://unsplash.com">Unsplash</a></footer>
         </div>
         <div class="body-right">
             <div class="br-top">
 
             </div>
             <div class="br-middle">
-
+                <div class="form-container">
+                    <h1 class="form-header">
+                        Sign Up
+                    </h1>
+                    <form action="" method="">
+                        <div class="input-container">
+                            <label for="fname">First Name</label>
+                            <input type="text" name="fname" id="fname" required>
+                            <span>
+                            </span>
+                            <div class="error"></div>
+                        </div>
+                        <div class="input-container">
+                            <label for="lname">Last Name</label>
+                            <input type="text" name="lname" id="lname" required>
+                            <span>
+                            </span>
+                            <div class="error"></div>
+                        </div>
+                        <div class="input-container">
+                            <label for="email">E-Mail</label>
+                            <input type="email" name="email" id="email" required>
+                            <span>
+                            </span>
+                            <div class="error"></div>
+                        </div>
+                        <div class="input-container">
+                            <label for="phone">Phone</label>
+                            <input type="text" name="phone" id="phone" pattern="(\d{10}|\d{3}-\d{3}-\d{4})" required>
+                            <span>
+                            </span>
+                            <div class="error"></div>
+                        </div>
+                        <div class="input-container">
+                            <label for="pass">Password</label>
+                            <input type="password" name="pass" id="pass" required>
+                            <span>
+                            </span>
+                            <div class="error"></div>
+                        </div>
+                        <div class="input-container">
+                            <label for="pass">Confirm Password</label>
+                            <input type="password" name="pass" id="cpass" minlength="8" required>
+                            <span>
+                            </span>
+                            <div class="error"></div>
+                        </div>
+                        <div id="btn">
+                            <button type="submit" class="submit-btn">Create Account</button>
+                            <p class="btom-text">
+                                Already have an account..? <a href=""> Log in</a>
+                            </p>
+                        </div>
+                    </form>
+                </div>
             </div>
             <div class="br-bottom">
-                
+
             </div>
         </div>
     </div>
