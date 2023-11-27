@@ -22,9 +22,14 @@
         transform: translateX(0);
     }
 }
+@font-face {
+    font-family: Norse-Bold;
+    src: url(fonts/Norse-Bold.otf);
+}
 body{
     display: flex;
     align-items: center;
+    font-family: Norse-Bold;
     justify-content: center;
     background-image: url("images/backgroun-Dario-Brönnimann.jpg");
     margin: 0em;
